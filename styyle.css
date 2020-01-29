@@ -2,8 +2,25 @@
     --primaryFont: 'Courier New', Courier, monospace;
 }
 
-.maai{
+.überschrift{
     text-align: center;
+    text-shadow: 1px 3px 3px grey;
+    font-size: 65px;
+}
+
+.unterüberschrift{
+    text-align: center;
+    text-shadow: 1px 3px 3px grey;
+    font-size: 35px;
+    margin: 50px;
+    margin-bottom: 10px;
+}
+
+.titel{
+    margin: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
 }
 
 .mainbox{
@@ -12,26 +29,37 @@
     margin-top: 30px;
     margin-bottom: 30px;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-family: var(--primaryFont);
-    font-size: 30px;
     clear: both;
+    /* background: gray;
+    color: black; */
 }
+
 
 .text{
     display: inline;
-    margin-left: 10px;
+    margin: 10px;
     font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
 }
 
 .imga{
     float: left;
-    margin: 10px;
+    margin: 20px;
+    border: 2px solid black;
 }
 
 .undertext{
     font-size: 20px;
     display: inline-block;
+    background-color: grey;
+    padding: 8px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 3px grey;
 }
 
 /* .header{
