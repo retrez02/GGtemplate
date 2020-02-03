@@ -16,6 +16,11 @@ h2.unterüberschrift{
     margin-bottom: 10px;
 }
 
+
+.bold{
+    font-weight: bold;
+}
+
 .titel{
     margin: 5px;
     margin-bottom: 10px;
@@ -60,7 +65,9 @@ p.undertext{
     margin: 15px;
     border-radius: 8px;
     box-shadow: 1px 3px 3px grey;
+    width: 35%;
 }
+
 
 /* .header{
     width: 98vw;
