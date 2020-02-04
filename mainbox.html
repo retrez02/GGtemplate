@@ -13,20 +13,26 @@
     <!-- <div class="header">THIS IS THE NAV-BAR</div> -->
 
     <div class="mainbox">
-        <h1 class="überschrift">{{$themenÜberschrift}}</h1>
-        <h2 class="unterüberschrift">{{$artikelÜberschrift}}</h2>
+        @if($article->topicHeader != null)
+        <h1 class="überschrift">{{$article->topicHeader}}</h1>
+        @endif
+        <h2 class="unterüberschrift">{{$article->articelHeader}}</h2>
         <!-- <div class="aside"></div> -->
-        <img class="imga" src="./Gaming/Tastatur1.jpg" width="300px" alt="Image">
+        <img class="imga" src="{{$article->imageURL}}" width="300px" alt="Image">
 
 
-        <h3 class="titel">{{$textartÜberschrift}}</h3>
-        <p class="infotext">{{$kurzText}}</p>
-        <p class="text">{{$mainText}}
+        <h3 class="titel">{{$article->textHeader}}</h3>
+        @if($article->shortText != null)
+        <p class="infotext">{!! $article->shortText !!}</p>
+        @endif
+        <p class="text">{!! $article->mainText !!}
         </p> <br> <br>
 
+        @if($article->hintText != null)
         <p class="undertext">
-            {$hinweisText}}
+            {!! $article->hintText !!}
         </p>
+        @endif
 
     </div>
 

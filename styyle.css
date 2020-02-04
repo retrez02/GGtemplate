@@ -1,14 +1,14 @@
-:root{
+.mainbox :root {
     --primaryFont: 'Courier New', Courier, monospace;
 }
 
-h1.überschrift{
+.mainbox h1.überschrift {
     text-align: center;
     text-shadow: 1px 3px 3px grey;
     font-size: 65px;
 }
 
-h2.unterüberschrift{
+.mainbox h2.unterüberschrift {
     text-align: center;
     text-shadow: 1px 3px 3px grey;
     font-size: 35px;
@@ -16,11 +16,11 @@ h2.unterüberschrift{
     margin-bottom: 30px;
 }
 
-.bold{
+.mainbox .bold {
     font-weight: bold;
 }
 
-.titel{
+.mainbox .titel {
     margin: 5px;
     margin-bottom: 30px;
     text-align: center;
@@ -28,7 +28,7 @@ h2.unterüberschrift{
     text-decoration: overline;
 }
 
-div.mainbox{
+.mainbox {
     width: 100%;
     height: 100%;
     margin-top: 30px;
@@ -41,28 +41,28 @@ div.mainbox{
     color: black; */
 }
 
-
-p.text{
+.mainbox p.text {
     display: inline;
-    margin: 15px;
+    /*margin: 15px;*/
     font-size: 22px;
     text-align: center;
     vertical-align: middle;
     align-items: center;
 }
 
-img.imga{
+.mainbox img.imga {
     float: left;
-    margin: 25px;
+    /*margin: 25px;*/
     margin-right: 50px;
     border: 2px solid black;
 }
 
-p.infotext{
+.mainbox p.infotext {
     font-size: 20px;
     float: right;
     /* display: inline-block; */
     background-color: grey;
+    color: white;
     padding: 8px;
     margin: 20px;
     margin-left: 50px;
@@ -71,7 +71,7 @@ p.infotext{
     width: 15%;
 }
 
-p.undertext{
+.mainbox p.undertext {
     font-size: 20px;
     float: left;
     /* display: inline-block; */
@@ -82,44 +82,3 @@ p.undertext{
     box-shadow: 1px 3px 3px grey;
     width: 45%;
 }
-
-
-/* .header{
-    width: 98vw;
-    height: 10vh;
-    box-sizing: border-box;
-    margin: 0px;
-    border: 1px solid black;
-    font-family: var(--primaryFont);
-    text-align: center;
-    font-size: 30px;
-} */
-
-/* .footer{
-    width: 98vw;
-    height: 10vh;
-    box-sizing: border-box;
-    margin: 0px;
-    border: 1px solid black;
-    font-family: var(--primaryFont);
-    text-align: center;
-    font-size: 30px;
-} */
-
-
-
-/* @media screen and (min-height: 600px){
-
-    .aside{
-    width: 20vw;
-    height: 80vh;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    box-sizing: border-box;
-    border: 1px solid black;
-    font-family: var(--primaryFont);
-    text-align: center;
-    font-size: 30px;
-    
-}
-} */
